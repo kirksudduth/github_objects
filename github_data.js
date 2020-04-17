@@ -5601,8 +5601,7 @@ const githubData = [
   },
 ];
 
-// console.log(githubData[6].payload.commits[1].message);
-// console.log(githubData[6].payload.commits[0].message);
+console.log(githubData[6].payload.commits[0].message);
 
 for (let i = 0; i > githubData.length; i++) {
   if ((githubData[i].id = "8030403992")) {
